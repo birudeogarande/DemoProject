@@ -15,7 +15,7 @@ class JenkinsDemoApplicationTests {
 	private static final Logger log = LoggerFactory.getLogger(JenkinsDemoApplicationTests.class);
 
 	@Test
-	 contextLoads() {
+	void contextLoads() {
 		log.info("Testcase executing..");
 		
 		log.info("Testcase executing second..");
