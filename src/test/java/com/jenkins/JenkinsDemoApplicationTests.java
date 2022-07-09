@@ -16,7 +16,9 @@ class JenkinsDemoApplicationTests {
 
 	@Test
 	void contextLoads() {
-		log.info("printing first log from context");
+		log.info("Testcase executing..");
+		
+		log.info("Testcase executing second..");
 		boolean actual = true;
 		assertEquals(actual,getBooleanValue());
 	}
